@@ -25,7 +25,7 @@
     [self.view addSubview:self.pushBVCButton];
     [_pushBVCButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
-        make.width.equalTo(@(100.f));
+        make.width.equalTo(self.view);
         make.height.equalTo(@(60.f));
     }];
 }

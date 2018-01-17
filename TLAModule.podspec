@@ -136,7 +136,7 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-  s.dependency "Masonry"
   s.dependency "TLBModuleCTMediator"
+  s.dependency "Masonry"
 
 end

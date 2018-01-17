@@ -43,7 +43,7 @@
 }
 
 #pragma mark - getters and setters
-- (UIButton *)pushBViewControllerButton
+- (UIButton *)pushBVCButton
 {
     if (_pushBVCButton == nil) {
         _pushBVCButton = [UIButton buttonWithType:UIButtonTypeCustom];
